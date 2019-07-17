@@ -3,12 +3,12 @@ id: introduction
 title: Introduction
 ---
 
-LIBRARY_NAME is a library that... A simple "Hello world" would look like this:
+ResponsiveTable is a library that... A simple "Hello world" would look like this:
 
 ```
 // src/App.js
 
-import { LIBRARY_NAME } from 'new-react-lib'
+import { ResponsiveTable } from 'responsive-table'
 
 export default props => (
   <div />

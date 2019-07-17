@@ -1,48 +1,23 @@
-# LIBRARY_NAME
+# ResponsiveTable
 
-## Setup
+## Install
 
-#### Dependencies
-
-- Node v11.1.0
-- [yarn](https://yarnpkg.com/pt-BR/)
-
-#### Clone this repository
-And replace `$$your-project-name$$` with your new package's name.
-
-```
-$ git clone https://github.com/SeasonedSoftware/new-react-lib.git $$your-project-name$$
-$ cd $$your-project-name$$/
+```bash
+yarn add responsive-table
 ```
 
-#### Install dependencies and run the scaffold
+## Usage
 
-```
-$ yarn
-```
+```jsx
+import React from 'react'
 
-#### Set up some configs
+import { ResponsiveTable } from 'responsive-table'
 
-Run the following command and follow the instructions on terminal:
-
-```
-$ yarn scaffold
+export default () => (
+  <ResponsiveTable />
+)
 ```
 
-#### Run the server
+## License
 
-```
-$ yarn start
-```
-
-#### Setup the example app
-
-Open another terminal tab from the same root folder and run:
-
-```
-$ cd example/
-$ yarn
-$ yarn start
-```
-
-# There you go!
+MIT © [Seasoned](https://github.com/SeasonedSoftware)
