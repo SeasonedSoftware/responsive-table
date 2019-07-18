@@ -4,7 +4,10 @@
   "description": "LIBRARY_NAME description",
   "author": "SeasonedSoftware",
   "license": "MIT",
-  "repository": "SeasonedSoftware/responsive-table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeasonedSoftware/responsive-table.git"
+  },
   "main": "dist/responsive-table.cjs.js",
   "module": "dist/responsive-table.esm.js",
   "types": "dist/types/index.d.ts",
@@ -64,5 +67,17 @@
   ],
   "dependencies": {
     "@babel/preset-env": "^7.5.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/SeasonedSoftware/responsive-table/issues"
+  },
+  "homepage": "https://github.com/SeasonedSoftware/responsive-table#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "keywords": [
+    "responsive",
+    "table"
+  ]
 }
