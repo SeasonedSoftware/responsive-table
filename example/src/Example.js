@@ -135,7 +135,7 @@ const data = [
     },
     Fizz: null,
     Hello: {
-      content: content: <strong>Bar foo</strong>,
+      content: <strong>Bar foo</strong>,
       align: 'left',
     },
   },

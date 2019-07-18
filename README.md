@@ -8,15 +8,7 @@ yarn add @seasoned-cc/responsive-table react react-dom @material-ui/core lodash
 
 ## Usage
 
-```jsx
-import React from 'react'
-
-import { ResponsiveTable } from '@seasoned-cc/responsive-table'
-
-export default () => (
-  <ResponsiveTable />
-)
-```
+Check [the samples](https://seasonedsoftware.github.io/responsive-table/).
 
 ## License
 
