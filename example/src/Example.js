@@ -38,6 +38,19 @@ const Example = () => (
     <Card elevation={5}>
       <CardHeader title="Scrollable" />
       <CardContent>
+        <p>
+          The <em>scrollable</em> prop will make both tables (desktop and
+          mobile) scroll when the width of the container is not enough for the
+          table content.
+        </p>
+        <p>
+          The <em>tableProps</em> will only affect the <em>desktop version</em>.
+          You can pass any prop that is acceptable by{' '}
+          <a href="https://material-ui.com/api/table/" target="_blank">
+            Table
+          </a>{' '}
+          component.
+        </p>
         <ResponsiveTable
           scrollable
           data={data}
@@ -59,6 +72,19 @@ import { ResponsiveTable } from '@seasoned-cc/responsive-table'
     <Card elevation={5}>
       <CardHeader title="Change mobile Props" />
       <CardContent>
+        <p>
+          The <em>mobileTableProps</em> and <em>cardProps</em> are only used on
+          the mobile version of the table. You can pass any prop that is
+          acceptable by{' '}
+          <a href="https://material-ui.com/api/table/" target="_blank">
+            Table
+          </a>{' '}
+          and{' '}
+          <a href="https://material-ui.com/api/card/" target="_blank">
+            Card
+          </a>{' '}
+          respectively.
+        </p>
         <ResponsiveTable
           data={data}
           mobileTableProps={{ size: 'small' }}
@@ -80,6 +106,10 @@ import { ResponsiveTable } from '@seasoned-cc/responsive-table'
     <Card elevation={5}>
       <CardHeader title="Change the breakpoint" />
       <CardContent>
+        <p>
+          You can pass a <em>mediaQuery</em> prop with a media query string. If
+          it matches, then the table is shown.
+        </p>
         <ResponsiveTable data={data} mediaQuery="(min-width:890px)" />
       </CardContent>
       <SyntaxHighlighter language="javascript" style={prism}>
