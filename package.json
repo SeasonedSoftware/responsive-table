@@ -62,5 +62,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "@babel/preset-env": "^7.5.5"
+  }
 }
