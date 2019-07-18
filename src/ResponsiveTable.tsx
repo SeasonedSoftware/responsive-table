@@ -1,4 +1,4 @@
-import React, { Props } from 'react'
+import React from 'react'
 import Table from './Table'
 import List from './List'
 import { useMediaQuery } from '@material-ui/core'

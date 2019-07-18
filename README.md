@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-yarn add responsive-table
+yarn add responsive-table react react-dom @material-ui/core lodash
 ```
 
 ## Usage
