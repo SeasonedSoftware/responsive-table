@@ -7,7 +7,7 @@
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "@reach/router": "latest",
-    "@seasoned-cc/responsive-table": "link:..",
+    "@seasonedsoftware/responsive-table": "link:..",
     "prop-types": "latest",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",

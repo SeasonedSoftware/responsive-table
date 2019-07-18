@@ -3,7 +3,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import prism from 'react-syntax-highlighter/dist/esm/styles/prism/prism'
 import { Card, CardHeader, CardContent } from '@material-ui/core'
 
-import { ResponsiveTable } from '@seasoned-cc/responsive-table'
+import { ResponsiveTable } from '@seasonedsoftware/responsive-table'
 
 const data = [
   {
@@ -59,7 +59,7 @@ const Example = () => (
       </CardContent>
       <SyntaxHighlighter language="javascript" style={prism}>
         {`
-import { ResponsiveTable } from '@seasoned-cc/responsive-table'
+import { ResponsiveTable } from '@seasonedsoftware/responsive-table'
 
 // MyComponent
 <ResponsiveTable
@@ -93,7 +93,7 @@ import { ResponsiveTable } from '@seasoned-cc/responsive-table'
       </CardContent>
       <SyntaxHighlighter language="javascript" style={prism}>
         {`
-import { ResponsiveTable } from '@seasoned-cc/responsive-table'
+import { ResponsiveTable } from '@seasonedsoftware/responsive-table'
 
 // MyComponent
 <ResponsiveTable
@@ -114,7 +114,7 @@ import { ResponsiveTable } from '@seasoned-cc/responsive-table'
       </CardContent>
       <SyntaxHighlighter language="javascript" style={prism}>
         {`
-import { ResponsiveTable } from '@seasoned-cc/responsive-table'
+import { ResponsiveTable } from '@seasonedsoftware/responsive-table'
 
 // MyComponent
 <ResponsiveTable

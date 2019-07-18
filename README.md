@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-yarn add @seasoned-cc/responsive-table react react-dom @material-ui/core lodash
+yarn add @seasonedsoftware/responsive-table react react-dom @material-ui/core lodash
 ```
 
 ## Usage
