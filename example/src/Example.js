@@ -41,7 +41,7 @@ const Example = () => (
         <ResponsiveTable
           scrollable
           data={data}
-          tableProps={{ style: { minWidth: 600 } }}
+          tableProps={{ style: { minWidth: 800 } }}
         />
       </CardContent>
       <SyntaxHighlighter language="javascript" style={prism}>
@@ -50,6 +50,7 @@ import { ResponsiveTable } from '@seasoned-cc/responsive-table'
 
 // MyComponent
 <ResponsiveTable
+  scrollable
   data={data} // see last sample
   tableProps={{ style: { minWidth: 800 } }}
 />`}
