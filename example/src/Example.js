@@ -89,7 +89,7 @@ import { ResponsiveTable } from '@seasoned-cc/responsive-table'
 // MyComponent
 <ResponsiveTable
   data={data} // see last sample
-  mediaQuery="(min-width:890px)"
+  mediaQuery="(min-width:890px)" // default: (min-width:600px)
 />`}
       </SyntaxHighlighter>
     </Card>
