@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-yarn add responsive-table react react-dom @material-ui/core lodash
+yarn add @seasoned-cc/responsive-table react react-dom @material-ui/core lodash
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ yarn add responsive-table react react-dom @material-ui/core lodash
 ```jsx
 import React from 'react'
 
-import { ResponsiveTable } from 'responsive-table'
+import { ResponsiveTable } from '@seasoned-cc/responsive-table'
 
 export default () => (
   <ResponsiveTable />
