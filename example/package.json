@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.2.1",
+    "@material-ui/core": "link:../node_modules/@material-ui/core",
     "@reach/router": "latest",
     "@seasonedsoftware/responsive-table": "link:..",
     "prop-types": "latest",

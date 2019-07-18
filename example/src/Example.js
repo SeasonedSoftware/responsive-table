@@ -46,7 +46,11 @@ const Example = () => (
         <p>
           The <em>tableProps</em> will only affect the <em>desktop version</em>.
           You can pass any prop that is acceptable by{' '}
-          <a href="https://material-ui.com/api/table/" target="_blank">
+          <a
+            href="https://material-ui.com/api/table/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Table
           </a>{' '}
           component.
@@ -76,11 +80,19 @@ import { ResponsiveTable } from '@seasonedsoftware/responsive-table'
           The <em>mobileTableProps</em> and <em>cardProps</em> are only used on
           the mobile version of the table. You can pass any prop that is
           acceptable by{' '}
-          <a href="https://material-ui.com/api/table/" target="_blank">
+          <a
+            href="https://material-ui.com/api/table/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Table
           </a>{' '}
           and{' '}
-          <a href="https://material-ui.com/api/card/" target="_blank">
+          <a
+            href="https://material-ui.com/api/card/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Card
           </a>{' '}
           respectively.
